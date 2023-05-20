@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
 
-    <script src="./src/main.js" defer></script>
+    <script src="./src/main.js" type="module" defer></script>
     <title>Ueslei Amaral</title>
   </head>
   <body>
@@ -19,56 +19,92 @@
 
       <nav class="nav-menu">
         <ul>
-          <li><a href="home">Home</a></li>
+          <li><a href="#home">Home</a></li>
         </ul>
         <ul>
-          <li><a href="projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
         <ul>
-          <li><a href="about">About</a></li>
+          <li><a href="#hability">Hability</a></li>
         </ul>
         <ul>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
         <ul>
-          <li><a href="github"><img
-                src="https://cdn-icons-png.flaticon.com/512/733/733609.png"
-                alt="github"></a></li>
-
+          <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <ul> <li><a href="linkedin"><img
-                src="https://cdn-icons-png.flaticon.com/512/733/733617.png"
-                alt="linkedin"></a></li></ul>
-        <ul> <li><a href="whatsapp"><img
-                src="https://cdn-icons-png.flaticon.com/512/733/733641.png"
-                alt="whatsapp"></a></li>
-        </ul>
-        <!-- <figure class="social-medias">
-
-        </figure> -->
       </nav>
 
     </header>
 
-    <main class="container">
+    <main class="container" id="home">
 
-      <div class="about">
-        <h1>Olá prazer sou o <span>Ueslei Amaral</span>.</h1>
-        <p>Sou de Valinhos/SP, sou desenvolvedor Web Fullstack...</p>
+      <div class="home">
+        <h1>Olá prazer me chamo <span>Ueslei Amaral</span>.</h1>
+        <p>Sou desenvolvedor Web Fullstack...</p>
 
-        <a href="#">CONTACT ME</a>
+        <a href="#contact">CONTACT ME</a>
       </div>
+
+      <figure class="social-medias">
+        <a href="whatsapp"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733641.png"
+            alt="whatsapp">
+        </a>
+        <a href="linkedin"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733617.png"
+            alt="linkedin">
+        </a>
+        <a href="github"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733609.png"
+            alt="github">
+        </a>
+      </figure>
 
     </main>
 
-    <section class="hability">
-      <p>HTML <span>ano de experiençia</span></p>
-      <p>CSS <span>ano de experiençia</span></p>
-      <p>JAVASCRIPT <span>ano de experiençia</span></p>
+    <section class="about" id="about">
+      <div class="content">
+
+        <h2>SOBRE MIM</h2>
+        <p>
+          Olá, meu nome é Ueslei e eu sou um desenvolvedor web fullstack
+        especializado em <span>HTML, CSS, JavaScript e MySQL</span>. Eu tenho
+        paixão por criar sites e aplicativos que sejam bonitos, rápidos e
+        seguros.
+
+        Atualmente estou cursando <span>técnico em informática para internet no SENAC</span>
+        e tenho um certificado <span>Oracle One em Programação Web.</span> Eu tenho
+        conhecimento em diversas ferramentas do mercado.
+
+        Eu me diferencio pela minha atenção aos detalhes, minha capacidade de
+        adaptação e minha dedicação aos projetos que eu assumo. Eu gosto de
+        enfrentar novos desafios e de me atualizar constantemente com as
+        novidades do mercado. Eu me preocupo com a funcionalidade e a
+        escalabilidade das minhas aplicações.
+
+        Se você quiser saber mais sobre mim ou sobre meus projetos, não hesite
+        em visitar meu <a href="">GitHub</a>, meu <a href="">LinkedIn</a> ou me enviar uma <a href="">mensagem</a>. Eu ficaria
+        muito feliz em conversar com você sobre possíveis oportunidades de
+        parceria ou contratação.
+        
+        Obrigado por visitar meu portfolio!</p>
+      </div>
+
+
+      <div class="skills">
+        <h2>ABILIDADES</h2>
+        
+        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML" ></img></span>
+        
+        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" ></img></span>
+        
+        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  alt="JAVASCRIPT"></img></span>
+        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png"  alt="NODEJS"></img></span>
+      </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="projects-title">
         <h2>PROJETOS</h2>
         <a href="#">CONTACT ME</a>
@@ -115,7 +151,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <h2>contact</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nulla
         saepe et eaque architecto perspiciatis asperiores assumenda, nobis error
