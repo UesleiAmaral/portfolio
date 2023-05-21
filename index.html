@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/carouselControls.css">
     <link rel="stylesheet" href="./assets/style.css">
 
     <script src="./src/main.js" type="module" defer></script>
@@ -24,9 +26,7 @@
         <ul>
           <li><a href="#about">About</a></li>
         </ul>
-        <ul>
-          <li><a href="#hability">Hability</a></li>
-        </ul>
+
         <ul>
           <li><a href="#projects">Projects</a></li>
         </ul>
@@ -68,39 +68,57 @@
 
         <h2>SOBRE MIM</h2>
         <p>
-          Olá, meu nome é Ueslei e eu sou um desenvolvedor web fullstack
-        especializado em <span>HTML, CSS, JavaScript e MySQL</span>. Eu tenho
+          Olá, meu nome é Ueslei e eu sou um desenvolvedor web fullstack</span>. Tenho
         paixão por criar sites e aplicativos que sejam bonitos, rápidos e
         seguros.
 
-        Atualmente estou cursando <span>técnico em informática para internet no SENAC</span>
-        e tenho um certificado <span>Oracle One em Programação Web.</span> Eu tenho
-        conhecimento em diversas ferramentas do mercado.
+        Atualmente estou cursando <span>técnico em informática para internet no SENAC,</span>
+        e tambem participei do programa <span>Oracle One em Programação Web.</span> <br>Tenho conhecimento em diversas ferramentas do mercado.
 
-        Eu me diferencio pela minha atenção aos detalhes, minha capacidade de
-        adaptação e minha dedicação aos projetos que eu assumo. Eu gosto de
-        enfrentar novos desafios e de me atualizar constantemente com as
-        novidades do mercado. Eu me preocupo com a funcionalidade e a
-        escalabilidade das minhas aplicações.
-
-        Se você quiser saber mais sobre mim ou sobre meus projetos, não hesite
-        em visitar meu <a href="">GitHub</a>, meu <a href="">LinkedIn</a> ou me enviar uma <a href="">mensagem</a>. Eu ficaria
-        muito feliz em conversar com você sobre possíveis oportunidades de
-        parceria ou contratação.
-        
-        Obrigado por visitar meu portfolio!</p>
+        Me diferencio pela minha atenção aos detalhes, minha capacidade de
+        adaptação e minha dedicação aos projetos que assumo. Gosto de enfrentar novos desafios e me atualizar constantemente com as
+        novidades do mercado.<br>Obrigado por visitar meu portfolio!</p>
       </div>
-
 
       <div class="skills">
         <h2>ABILIDADES</h2>
         
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML" ></img></span>
+        <figure>
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML" ></img>
+        </figure>
+
+        <figure>
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" ></img>
+        </figure>
+
+        <figure>
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  alt="JAVASCRIPT"></img>
+        </figure>
+
+        <figure>
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25657.png"  alt="GITHUB"></img>
+        </figure>
+
+        <figure>
+          <img src="https://softprodigy.com/wp-content/uploads/2019/07/express-js.png"  alt="EXPRESS"></img>
+          <figcaption>Basico</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png"  alt="NODEJS">  
+          <figcaption>Basico</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://1000marcas.net/wp-content/uploads/2021/06/Git-Logo-1280x800.png"  alt="NODEJS">  
+          <figcaption>Basico</figcaption>
+        </figure>
         
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" ></img></span>
-        
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  alt="JAVASCRIPT"></img></span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png"  alt="NODEJS"></img></span>
+        <figure>
+          <img src="https://logos-download.com/wp-content/uploads/2018/09/SQLite_Logo.png"  alt="NODEJS">  
+          <figcaption>Basico</figcaption>
+        </figure>
+
       </div>
     </section>
 
@@ -110,46 +128,57 @@
         <a href="#">CONTACT ME</a>
       </div>
 
-      <div class="card-project">
-        <img src="#" alt="imagem do projeto 01" class="img-project">
 
-        <div class="description-project">
-          <p class="name-project">Nome do projeto</p>
-          <span>HTML</span>
-          <span>CSS</span>
-        </div>
+      <section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+        <img src="https://consumeglobal.com/wp-content/uploads/2020/07/Portada-Android-Go.jpg" style="width:100%; height: 65vh;" alt="">
+      <div class="carousel__snapper">
+        <a href="test.html" target="_blank">        <img src="https://consumeglobal.com/wp-content/uploads/2020/07/Portada-Android-Go.jpg" style="width:100%; height: 65vh;" alt=""></a>
+
       </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
 
-      <div class="card-project">
-        <img src="#" alt="imagem do projeto 01" class="img-project">
-
-        <div class="description-project">
-          <p class="name-project">Nome do projeto</p>
-          <span>HTML</span>
-          <span>CSS</span>
-        </div>
-      </div>
-
-      <div class="card-project">
-        <img src="#" alt="imagem do projeto 01" class="img-project">
-
-        <div class="description-project">
-          <p class="name-project">Nome do projeto</p>
-          <span>HTML</span>
-          <span>CSS</span>
-        </div>
-      </div>
-
-      <div class="card-project">
-        <img src="#" alt="imagem do projeto 01" class="img-project">
-
-        <div class="description-project">
-          <p class="name-project">Nome do projeto</p>
-          <span>HTML</span>
-          <span>CSS</span>
-        </div>
-      </div>
-    </section>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button"></a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button"></a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button"></a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button"></a>
+      </li>
+    </ol>
+  </aside>
+</section>
+</section>
 
     <section class="contact" id="contact">
       <h2>contact</h2>
