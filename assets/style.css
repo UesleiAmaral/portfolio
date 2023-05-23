@@ -94,7 +94,8 @@ ul li a:hover {
 .container,
 .contact,
 .about,
-.project {
+.project,
+.skills {
   padding-top: 10rem;
   height: 100%;
 
@@ -193,7 +194,7 @@ ul li a:hover {
   padding-right: 5rem;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 5rem;
 
 }
@@ -208,7 +209,8 @@ ul li a:hover {
 .about h2,
 .hability h2,
 .projects-title h2,
-.contact h2 {
+.contact h2,
+.skills h2 {
   font-size: 4rem;
 
 }
@@ -235,18 +237,46 @@ ul li a:hover {
 }
 
 .skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 
-  padding: 0 4rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 2rem;
 
 }
 
-.about .skills figure {
+.skills h2 {
+  width: 100%;
+}
+
+.hability{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 14rem 14rem 14rem 14rem;
+  grid-template-rows: 18rem 18rem;
+
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.hability figure{
+  width: 100%;
+  /* background-image: var(--bg-color-button); */
+  padding: 2rem 1rem;
+
+  border-radius: 4px;
+  box-shadow: 0 0 10px black;
+}
+
+.skills figure {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
 
   width: -moz-fit-content;
@@ -254,7 +284,7 @@ ul li a:hover {
 
 }
 
-.about .skills figure figcaption {
+.skills figure figcaption {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 600;
@@ -272,32 +302,37 @@ ul li a:hover {
   opacity: .8;
 }
 
-.about .skills img {
-  width: 7rem;
+.skills img {
+  width: 100%;
 
 }
 
-.about .skills h2 {
+
+.foguete img{
+  width: 30%;
+}
+
+.skills h2 {
   width: 100%;
   grid-column: 1/4;
 
 }
 
 .projects {
-  padding-left: 5rem;
-  padding-right: 7rem;
-  padding-bottom: 5rem;
+  padding: 4rem 6rem 4rem 6rem;
 
   height: 100vh;
 
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 20rem auto;
 
+  grid-template-columns: 1fr 59rem 1fr;
+  grid-template-rows: 10rem 1fr 1fr 50rem 1fr 1fr;
 }
 
+
 .carousel {
-  grid-column: 2/4;
+  grid-row: 4;
+  grid-column: 2/3;
 }
 
 .card-project:hover {
@@ -310,12 +345,12 @@ ul li a:hover {
   justify-content: space-between;
   grid-column: 1/5;
 
-  padding-top: 4rem;
+  padding-top: 6rem;
   width: 100%;
 
 }
 
-.card-project {
+/* .card-project {
   padding: 2rem;
   height: 60vh;
 
@@ -330,8 +365,8 @@ ul li a:hover {
 
   transition: all 400ms;
 
-}
-
+} */
+/* 
 .card-project figure {
   width: 100%;
   height: 100%;
@@ -340,7 +375,7 @@ ul li a:hover {
 
 .card-project figure img {
   border-radius: 10px;
-  width: 100%;
+  width:90%;
   height: 100%;
 }
 
@@ -366,7 +401,7 @@ ul li a:hover {
 .description-project span {
   font-size: 1.5rem;
 
-}
+} */
 
 .buttons {
   width: 100%;
@@ -418,6 +453,7 @@ ul li a:hover {
   width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 15rem;
 
 }
 
