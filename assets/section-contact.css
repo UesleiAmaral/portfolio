@@ -1,0 +1,72 @@
+#section-contact {
+  height: 100vh;
+
+  padding-left: 5rem;
+  padding-right: 5rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.contact-title {
+  font-size: clamp(2rem, 10vw, 4rem);
+  text-align: center;
+}
+
+.contact-p {
+  margin: 0 auto;
+  width: 60%;
+  width: clamp(20rem, 80vw, 90rem);
+  padding: 2rem 0;
+  font-size: clamp(1.8rem, 2.5vw, 2rem);
+  text-align: center;
+}
+
+.form-contact {
+  width: clamp(40rem, 40vw, 50rem);
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.form-input {
+  padding: .5rem 1rem;
+  margin-bottom: 20px;
+
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-weight: 400;
+  border: none;
+}
+
+.form-label {
+  margin-bottom: 1rem;
+
+  font-size: clamp(1.8rem, 2vw, 2rem);
+  font-weight: 600;
+}
+
+.form-textarea {
+  height: 15vh;
+  resize: none;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+
+  border: none;
+  font-size: 2rem;
+}
+
+.footer-p {
+  width: 100%;
+  padding-top: 1rem;
+
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: normal;
+
+  border-top: 1px solid rgb(153, 151, 151);
+}

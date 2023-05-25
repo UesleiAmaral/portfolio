@@ -10,6 +10,7 @@
     "about-title about-title about-title"
     "about-img about-p about-p";
 
+    height: 100vh;
     gap: 4rem;
 }
 
