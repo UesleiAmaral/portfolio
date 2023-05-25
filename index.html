@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="./header-main.css">
-    <link rel="stylesheet" href="./section-about.css">
-    <link rel="stylesheet" href="./section-skills.css">
-    <link rel="stylesheet" href="./section-projects.css">
+    <link rel="stylesheet" href="./assets/header-main.css">
+    <link rel="stylesheet" href="./assets/section-about.css">
+    <link rel="stylesheet" href="./assets/section-skills.css">
+    <link rel="stylesheet" href="./assets/section-projects.css">
+    <link rel="stylesheet" href="./assets/section-contact.css">
     <link rel="stylesheet" href="./assets/mediaQueries.css">
 
     <script src="./src/main.js" type="module" defer></script>
@@ -182,30 +183,21 @@
     <section class="section-contact" id="section-contact">
       <div class="content-contact">
         <h2 class="contact-title">Contato</h2>
-        <p>Sinta-se livre para entrar em contato comigo enviando o formulário ao lado e eu entrarei em contato com você o mais rápido possível.</p>
+        <p class="contact-p">Sinta-se livre para entrar em contato comigo enviando o formulário ao lado e eu entrarei em contato com você o mais rápido possível.</p>
       </div>
 
       <form class="form-contact">
-        <label for="name">Nome</label>
-        <input type="text" id="name" required>
+        <label class="form-label" for="name">Nome</label>
+        <input class="form-input" type="text" id="name" required>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" required>
+        <label class="form-label" for="email">E-mail</label>
+        <input class="form-input" type="email" id="email" required>
 
-        <label for="message">Mensagem</label>
-        <textarea name="message" id="message" required></textarea>
+        <label class="form-label" for="message">Mensagem</label>
+        <textarea class="form-textarea" name="message" id="message" required></textarea>
 
         <a class="button button-section-contact" type="submit">SEND MESSAGE</a>
       </form>
+      <p class="footer-p">© Copyright 2023. Made by Ueslei Pereira Amaral</p>
     </section>
-
-    <footer>
-      <h3>Ueslei Amaral</h3>
-      <figure class="social-medias-footer">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733641.png" alt="whatsapp">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733617.png" alt="linkedin">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="github">
-      </figure>
-      <p>© Copyright 2023. Made by Ueslei Pereira Amaral</p>
-    </footer>
   </body>
