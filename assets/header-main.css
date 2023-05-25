@@ -85,24 +85,23 @@ html {
   border-bottom: 2px solid var(--bg-button);
 }
 
-#home,
+/* #home, */
 #section-about,
 #section-skills,
 #section-projects,
 #section-contact {
-  padding-top: 10rem;
+  padding-top: 9rem;
   height: 100%;
 }
 
 .home-main-content {
   text-align: center;
-
+  gap: 4rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
 
 }
 

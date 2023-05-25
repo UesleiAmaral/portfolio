@@ -11,7 +11,7 @@
   }
 
   .content-about-p {
-    padding: 0;
+    /* padding: 0; */
   }
 
 
@@ -21,6 +21,14 @@
 
 
 @media (max-width: 768px) {
+
+  #header {
+    justify-content: center;
+  }
+
+  .figure-header {
+    display: none;
+  }
 
   #section-about {
     display: flex;
@@ -55,6 +63,27 @@
 }
 
 @media (max-width: 576px) {
+  #header {
+    gap: 10rem;
+    padding: 1rem;
+    justify-content: start;
+  }
+
+  .nav-menu-header {
+    display: none;
+
+  }
+
+  .box-hambuger {
+    display: block;
+  }
+
+  .figure-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    ;
+  }
 
   #home {
     padding-top: 3rem;
