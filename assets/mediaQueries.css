@@ -1,7 +1,4 @@
-@media (min-width: 1024px) {
-
-
-}
+@media (min-width: 1024px) {}
 
 @media (max-width: 992px) {}
 
@@ -21,7 +18,7 @@
   }
 
   .title-about {
-    
+
     font-size: 4rem;
   }
 
@@ -45,13 +42,11 @@
   }
 
   .figure-projects {
-    width: 67%;
-  }
-
-  #section-projects {
+    width: 47%;
     height: fit-content;
-
   }
+
+  #section-projects {}
 
   .projects-img {
     width: 100%;
@@ -110,11 +105,35 @@
 
 @media (max-width: 425px) {
 
-  .figure-about{
-  display: none;
+  #header{
+    align-items: center;
+    align-content: center;
+    gap: 8rem;
   }
-  .content-about{
+
+  .img-header{
+    display: none;
+  }
+  .figure-about {
+    display: none;
+  }
+
+  .content-about {
     margin: 0 auto;
     width: 90%;
+  }
+
+  #section-skills{
+    height: fit-content;
+  }
+
+  #section-projects {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: fit-content;
+  }
+
+  .figure-projects {
+    width: 100%;
   }
 }

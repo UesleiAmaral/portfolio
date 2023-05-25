@@ -4,6 +4,7 @@
 
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-top: 9rem;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -27,7 +28,7 @@
 }
 
 .form-contact {
-  width: clamp(40rem, 40vw, 50rem);
+  width: clamp(30rem, 40vw, 50rem);
   padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
@@ -46,7 +47,10 @@
 
 .form-label {
 
-  font-size: clamp(1.8rem, 2vw, 2rem);
+  width: fit-content;
+  width:-moz-fit-content;
+  font-size: clamp(1.8rem, 3vw, 2rem);
+  height: fit-content;
   font-weight: 600;
 }
 
@@ -69,4 +73,8 @@
   font-weight: normal;
 
   border-top: 1px solid rgb(153, 151, 151);
+}
+
+.button-section-contact{
+  margin: 0 auto;
 }

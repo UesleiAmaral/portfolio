@@ -57,20 +57,20 @@ label {
 }
 
 label span:nth-child(1) {
-  top: 0;
+  top: -10px;
 }
 
 label span:nth-child(2) {
-  top: 8px;
+  top: 0;
 }
 
 label span:nth-child(3) {
-  top: 16px;
+  top: 10px;
 }
 
 #checkbox-menu:checked+label span:nth-child(1) {
   transform: rotate(-45deg);
-  top: 8px;
+  top: 0px;
 }
 
 #checkbox-menu:checked+label span:nth-child(2) {
@@ -79,7 +79,7 @@ label span:nth-child(3) {
 
 #checkbox-menu:checked+label span:nth-child(3) {
   transform: rotate(45deg);
-  top: 8px;
+  top: 0;
 
 }
 
