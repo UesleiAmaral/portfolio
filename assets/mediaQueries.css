@@ -1,19 +1,5 @@
 @media (min-width: 1024px) {
 
-  #section-about {
-    gap: 0;
-  }
-
-  .content-about {
-    width: 100%;
-    padding: 0;
-
-  }
-
-  .content-about-p {
-    /* padding: 0; */
-  }
-
 
 }
 
@@ -31,15 +17,31 @@
   }
 
   #section-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
+    justify-content: flex-start;
+  }
+
+  .title-about {
+    
+    font-size: 4rem;
   }
 
   .figure-about {
     width: 35%;
     height: 45%;
+  }
+
+  .about-img {
+
+    padding: 0;
+  }
+
+  .content-about {
+    width: 55%;
+  }
+
+  .content-about-p {
+    padding: 0;
+
   }
 
   .figure-projects {
@@ -98,10 +100,21 @@
 
   }
 
-  .title-about {
-    font-size: 4rem;
-    text-align: center;
+  #section-about {
+    gap: 0;
   }
 
 
+
+}
+
+@media (max-width: 425px) {
+
+  .figure-about{
+  display: none;
+  }
+  .content-about{
+    margin: 0 auto;
+    width: 90%;
+  }
 }
