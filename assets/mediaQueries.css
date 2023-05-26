@@ -1,6 +1,4 @@
 @media (max-width: 1024px) {
-#section-projects{
-}
 
 .figure-projects{
     width: 27rem;
@@ -92,6 +90,12 @@
 
   #home {
     padding-top: 3rem;
+    
+  }
+  
+  .home-main-content{
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .home-title {
@@ -114,9 +118,10 @@
 @media (max-width: 425px) {
 
   #header{
+
     align-items: center;
     align-content: center;
-    gap: 8rem;
+    gap: 6rem;
   }
 
   .img-header{
