@@ -40,7 +40,7 @@
 }
 
 .figure-projects {
-  background: var(--bg-color-header);
+  background: var(--bg-color);
   width: 32rem;
   height: 32rem;
   object-fit: cover;

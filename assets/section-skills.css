@@ -1,32 +1,27 @@
 #section-skills {
   height: 100vh;
-  padding-top: 9rem;
+
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .skills-title {
-  font-size: 4rem;
-  /* font-size: clamp(1rem, 4vw, 4rem); */
+  font-size: clamp(1rem, 4vw, 4rem);
   text-align: center;
 }
 
 .box-skills {
-
-  margin: 0 auto;
-  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .figure-skills {
-  width: clamp(12rem, 11vw, 20rem);
-  height: fit-content;
+  width: 100px;
   padding: 2rem 1rem;
 
   border-radius: 4px;
@@ -47,7 +42,6 @@
   font-size: 1.2rem;
   font-weight: 600;
 
-  margin-top: 1rem;
   padding: .1rem 2rem;
 
   background-color: rgba(128, 128, 128, 0.582);
