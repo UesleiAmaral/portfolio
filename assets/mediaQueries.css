@@ -1,8 +1,10 @@
 @media (max-width: 1024px) {
-
+#section-projects{
+  gap: 2rem;
+}
 .figure-projects{
-    width: 27rem;
-      height: 27rem;
+    width:37rem;
+      height: 30rem;
 }
 }
 

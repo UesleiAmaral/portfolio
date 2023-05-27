@@ -9,7 +9,7 @@
   justify-content: center;
   /* justify-content: space-around; */
 
-  gap: 1rem;
+  gap: 2rem;
   height: 100vh;
 
 
@@ -41,8 +41,8 @@
 
 .figure-projects {
   background-image: var(--bg-color);
-  width: 32rem;
-  height: 32rem;
+  width: 35rem;
+  height: 30rem;
   object-fit: cover;
   padding: 2rem;
 
@@ -53,7 +53,7 @@
 
 .projects-img {
   border-radius: 20px;
-  box-shadow: 0px 0px 6px rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px rgb(153, 151, 151);
   width: 100%;
   height: 80%;
 }
