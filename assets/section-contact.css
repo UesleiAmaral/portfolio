@@ -3,7 +3,7 @@
 
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 9rem;
+  padding-top: 8rem;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
 
 
 .contact-title {
+  /* margin-top:clamp(4rem, 4vw ,3rem); */
   font-size: clamp(2rem, 10vw, 4rem);
   text-align: center;
 }
@@ -21,7 +22,8 @@
   margin: 0 auto;
   width: 60%;
   width: clamp(20rem, 80vw, 90rem);
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  padding-bottom: 1rem;
   font-size: clamp(1.8rem, 2.5vw, 2rem);
   text-align: center;
 }
@@ -64,9 +66,9 @@
 }
 
 .footer-p {
-  width: 100%;
-  padding-top: 1rem;
-
+  width: 98vw;
+  white-space: nowrap;
+  /* padding-top: .5rem; */
   font-size: 1.4rem;
   text-align: center;
   font-weight: normal;

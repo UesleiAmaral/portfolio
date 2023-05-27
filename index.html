@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./assets/mediaQueries.css">
 
 
+
+    <link rel="stylesheet" href="flip-card.css">
     <title>Ueslei Amaral</title>
   </head>
 
@@ -43,7 +45,7 @@
             </li>
             <li class="list-menu-header">
               <a class="button-menu-header" href="/o-universo" onclick="route()">O Universo</a>
-            </li> 
+            </li>
             <li class="list-menu-header">
               <a class="button-menu-header" href="/exploracao" onclick="route()">Exploração</a>
             </li>
@@ -156,8 +158,24 @@
         <a class="button button-section-project" href="#">VER MAIS</a>
       </div>
 
-      <figure class="figure-projects">
-        <img class="projects-img" src="./assets/image/devFinderSearch.png" alt="">
+
+      <figure class="figure-projects ">
+
+
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+
+            <img class="projects-img flip-card-front" src="./assets/image/devFinderSearch.png" alt="">
+            <div class="content-card-back flip-card-back">
+              <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda excepturi, nihil soluta aspernatur
+              </p>
+            </div>
+
+          </div>
+        </div>
+
         <div class="buttons">
           <a href="https://uesleiamaral.github.io/DevFinder-/" target="_blank" class="site">site</a>
           <a href="https://github.com/UesleiAmaral/DevFinder-" target="_blank" class="repos">repositorio</a>
@@ -166,8 +184,21 @@
 
 
 
+
+
       <figure class="figure-projects">
-        <img class="projects-img" src="./assets/image/dev-flix.jpeg" alt="">
+        <div class="flip-card">
+
+          <div class="flip-card-inner">
+            <img class="projects-img flip-card-front" src="./assets/image/dev-flix.jpeg" alt="">
+            <div class="content-card-back flip-card-back">
+              <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda excepturi, nihil soluta aspernatur
+              </p>
+            </div>
+
+          </div>
+        </div>
         <div class="buttons">
           <button class="site">site</button>
           <a href="https://github.com/UesleiAmaral/dev-flix" class="repos" target="_blank">repositorio</a>

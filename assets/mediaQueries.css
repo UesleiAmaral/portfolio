@@ -49,6 +49,10 @@
 
   }
 
+    #section-skills{
+      gap: 10rem;
+    }
+
   .figure-projects {
     width: 47%;
     height: fit-content;
@@ -151,4 +155,11 @@
   .figure-projects {
     width: 100%;
   }
+
+    .form-textarea{
+      height: 10vh;
+    }
+.button-section-contact{
+  font-size: 1.5rem;
+}
 }
