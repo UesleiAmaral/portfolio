@@ -93,16 +93,7 @@
   }
 
   .figure-social-medias {
-    /* position: absolute; */
-    /* z-index: 1;
-    top:2rem;
-    right: 0;
-    flex-direction: row;
-    border: none;
-    box-shadow: none;
-    background: transparent;
-    padding: 1rem 2rem;
-    height: fit-content; */
+
     display: none;
 
   }
@@ -114,6 +105,10 @@
 
   #section-about {
     gap: 0;
+  }
+
+  #section-projects{
+    row-gap: 4rem;
   }
 
 
