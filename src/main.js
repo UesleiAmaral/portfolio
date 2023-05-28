@@ -1,14 +1,19 @@
-import { animate } from "./animate.js";
+
+const menuHamburger = document.getElementById('checkbox-menu');
+
+const buttonHB = document.querySelectorAll('.button-hb');
+const menu = document.querySelector('.nav-bar-hamburguer');
+
+menuHamburger.addEventListener('click', () => {
+  menu.classList.toggle('display-none');
+});
 
 
-const home = document.querySelector(".home");
-const about = document.querySelector(".about");
-const projects = document.querySelector(".projects");
-const contact = document.querySelector(".contact");
+buttonHB.forEach((button) => {
+  button.addEventListener('click', () => {
+    menu.classList.toggle('display-none');
+  
+    menuHamburger.checked = false;
+   });
 
-
-animate(home);
-animate(about);
-
-animate(projects);
-animate(contact);
+});

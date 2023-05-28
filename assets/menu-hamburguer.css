@@ -6,7 +6,6 @@
   top: 0;
   z-index: 1;
   height: 10vh;
-  /* display: none; */
 }
 
 .menu-hamburguer {
@@ -20,11 +19,14 @@
   justify-content: center;
   gap: 1rem;
   background: var(--bg-color);
-  width: 40%;
+  width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
-  animation: menu .22s;
+  left: 0;
+  animation: menu .12s;
+
+  font-size: 3rem;
 
 }
 
