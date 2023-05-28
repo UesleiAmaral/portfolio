@@ -1,8 +1,3 @@
-@media (max-width: 1024px) {}
-
-@media (max-width: 992px) {}
-
-
 @media (max-width: 768px) {
 
   #header {
@@ -57,35 +52,41 @@
   #header {
     gap: 5rem;
     padding: 1rem;
-    justify-content: start;
+    justify-content: space-between;
   }
 
   .nav-menu-header {
     display: none;
-
   }
 
   .box-hambuger {
-    
-
     display: block;
   }
 
   .figure-header {
     display: flex;
-    align-items: center;
-    gap: 2rem;
-    ;
+    gap: 0;
+    width: 100%;
+
+  }
+
+  .img-header {
+    display: none;
+  }
+
+  .h3-title-header {
+    width: 84%;
+    text-align: center;
   }
 
   #home {
     padding-top: 3rem;
-
   }
 
   .home-main-content {
     padding-left: 0;
     padding-right: 0;
+    justify-content: start;
   }
 
   .home-title {
@@ -93,38 +94,31 @@
   }
 
   .figure-social-medias {
-
     display: none;
-
   }
 
-  .figure-social{
+  .figure-social {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    justify-content: space-between;
   }
 
   #section-about {
     gap: 0;
   }
 
-  #section-projects{
+  #section-projects {
     row-gap: 4rem;
   }
 
-
-
+  .figure-projects {
+    width: 100%;
+  }
 }
 
 @media (max-width: 425px) {
-
-  #header {
-
-    align-items: center;
-    align-content: center;
-  }
-
-  .img-header {
-    display: none;
+  .home-main-content {
+    gap: 2rem;
   }
 
   .figure-about {
@@ -138,10 +132,7 @@
 
   #section-skills {
     height: fit-content;
-  }
-
-  .figure-projects {
-    width: 100%;
+    gap: 2rem;
   }
 
   .form-textarea {
@@ -152,3 +143,4 @@
     font-size: 1.5rem;
   }
 }
+
