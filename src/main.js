@@ -12,8 +12,18 @@ menuHamburger.addEventListener('click', () => {
 buttonHB.forEach((button) => {
   button.addEventListener('click', () => {
     menu.classList.toggle('display-none');
-  
+
     menuHamburger.checked = false;
-   });
+  });
 
 });
+
+const connection = async () => {
+  const endpoint = 'https://api.github.com/users/uesleiamaral/repos'
+
+  const data = await fetch(endpoint)
+    .then((data) => data.json())
+  console.log(data);
+}
+
+connection();
