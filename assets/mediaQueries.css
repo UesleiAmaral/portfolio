@@ -98,10 +98,13 @@
   }
 
   .figure-social {
+    list-style: none;
     display: flex;
     gap: 2rem;
     justify-content: space-between;
+
   }
+
 
   #section-about {
     gap: 0;
@@ -117,8 +120,21 @@
 }
 
 @media (max-width: 425px) {
+
+  #section-skills,
+  #section-about,
+  #section-contact #home {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #section-projects {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .home-main-content {
-    gap: 2rem;
+    gap: 3.5rem;
   }
 
   .figure-about {
@@ -132,7 +148,7 @@
 
   #section-skills {
     height: fit-content;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .form-textarea {
@@ -143,4 +159,3 @@
     font-size: 1.5rem;
   }
 }
-
