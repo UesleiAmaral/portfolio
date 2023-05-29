@@ -26,7 +26,6 @@
 
 .figure-skills {
   width: clamp(12rem, 11vw, 20rem);
-  height: 14rem;
   padding: 1rem;
 
   border-radius: 4px;
@@ -37,6 +36,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+
 
 .figure-img {
   width: 100%;
