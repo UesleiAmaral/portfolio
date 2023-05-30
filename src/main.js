@@ -38,13 +38,19 @@ const recuseID = [
   645994164
 ];
 
+let cont = 0;
+
 const buttonVerMais = document.querySelector('.button-section-project');
 const viewProject = document.querySelector('.div-figure-projects');
 
 buttonVerMais.addEventListener('click', (e) => {
   e.preventDefault();
 
-  viewProject.innerHTML += createElementProjects();
+  if (cont == 0) {
+    cont += 1;
+    viewProject.innerHTML += createElementProjects();
+  }
+
   // viewProject.innerHTML += createElementProjects();
   // viewProject.innerHTML += createElementProjects();
   // viewProject.innerHTML += createElementProjects();
