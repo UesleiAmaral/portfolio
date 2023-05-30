@@ -1,5 +1,14 @@
 #section-projects {
-  padding: 9rem 4rem 0 4rem;
+  padding: 9rem 4rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 8rem;
+
+}
+
+.div-figure-projects {
+  /* width: 100%; */
 
   display: flex;
   flex-direction: row;
@@ -7,9 +16,7 @@
   justify-content: center;
   height: 100%;
 
-  gap: 4rem;
-
-
+  gap: 2rem;
 }
 
 .box-title {
@@ -57,11 +64,30 @@
   height: 100%;
 }
 
-.button-projects{
+.button-projects {
 
-  padding-top: 9rem;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
+.div-msg{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.div-msg h3{
+  width: 100%;
+  font-size: 3rem;
+}
+
+.div-msg img{
+  border-radius: 5px;
+  width: 100%;
+
+}

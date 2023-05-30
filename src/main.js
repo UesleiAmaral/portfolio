@@ -39,19 +39,15 @@ const recuseID = [
 ];
 
 const buttonVerMais = document.querySelector('.button-section-project');
-const viewProject = document.querySelector('.section-projects');
+const viewProject = document.querySelector('.div-figure-projects');
 
 buttonVerMais.addEventListener('click', (e) => {
   e.preventDefault();
 
-    viewProject.innerHTML += createElementProjects();
-    viewProject.innerHTML += createElementProjects();
-    viewProject.innerHTML += createElementProjects();
-    viewProject.innerHTML += createElementProjects();
-
-
-
-
+  viewProject.innerHTML += createElementProjects();
+  // viewProject.innerHTML += createElementProjects();
+  // viewProject.innerHTML += createElementProjects();
+  // viewProject.innerHTML += createElementProjects();
 })
 
 
@@ -68,6 +64,28 @@ repository.forEach((repos) => {
 
 const createElementProjects = () => {
   const element = `
+<div class="div-msg">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+
+      <img src="./assets/image/desenho02.jpg" alt="">
+
+      <div class="content-card-back flip-card-back">
+
+        <h3>Trabalhando nisso logo estará finalizado!</h3>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  `;
+  return element;
+
+}
+
+/*
+
 <figure class="figure-projects">
   <div class="flip-card">
     <div class="flip-card-inner">
@@ -102,8 +120,6 @@ const createElementProjects = () => {
     <a href="https://github.com/UesleiAmaral/BiscoitoDaSorte" target="_blank" class="repos">repositorio</a>
   </div>
 </figure>
-  `;
-  return element;
 
-}
+*/
 
