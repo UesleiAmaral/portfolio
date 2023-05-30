@@ -1,12 +1,13 @@
 #section-projects {
-  padding: 9rem 4rem;
+  padding: 9rem 4rem 0 4rem;
 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  row-gap: 7rem;
+  justify-content: center;
   height: 100%;
+
+  gap: 4rem;
 
 
 }
@@ -58,6 +59,7 @@
 
 .button-projects{
 
+  padding-top: 9rem;
   width: 100%;
   display: flex;
   justify-content: center;
